@@ -3,16 +3,17 @@
         <title><%= title %></title>
     </head>
     <body>
-        <!-- Navigation -->
+        <!-- Navigation Bar content from header.ejs file-->
         <header>           
             <%- include('components/header.ejs'); %>
         </header>
-        <!-- Main -->
+        <!-- Main content from either about.ejs, contact.ejs, 
+            home.ejs, projects.ejs or services.ejs-->
         <main>
-            <!-- 'content/nameofthepage.ejs' -->        
+            <!-- loads from 'content/active_page_name.ejs' -->        
             <%- include('content/' + page + '.ejs'); %>
         </main>        
-        <!-- Footer -->
+        <!-- Footer content from footer.ejs-->
         <footer>
             <%- include('components/footer.ejs'); %>
         </footer>  
