@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "22F--COMP229(SEC.401) - Web Application Development",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
