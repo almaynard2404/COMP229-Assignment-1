@@ -3,9 +3,9 @@
     <h3>Hello There!</h3>
     <h3> Please check out the rest of my portfolio site!</h3>
     <ul>
-        <li><a href="./about.ejs">About Page</a></li>
-        <li><a href="./projects.ejs">Projects Page</a></li>
-        <li><a href="./services.ejs">Services Page</a></li>
-        <li><a href="./contact.ejs">Contact Page</a></li>
+        <li><a class="<%= (page == 'about') ? 'active' : ''; %>" href="/about">About Page</a></li>
+        <li><a class="<%= (page == 'projects') ? 'active' : ''; %>" href="/projects">Projects Page</a></li>
+        <li><a class="<%= (page == 'services') ? 'active' : ''; %>" href="/services">Services Page</a></li>
+        <li><a class="<%= (page == 'contact') ? 'active' : ''; %>" href="/contact">Contact Page</a></li>
     </ul>
 </div>
