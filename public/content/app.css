@@ -20,7 +20,6 @@ label {
     width: 16%;
     padding: .5%;
     font-size: large;
-    color: #464648;
     font-weight: 800;
     margin-left: 20%;
     text-align: right;
@@ -83,9 +82,6 @@ form p {
 
 
 /*GENERAL STYLES FOR THE SITE*/
-
-
-
 .title {
     text-align: center;
     padding: 2%;
@@ -122,6 +118,3 @@ a {
 li {
     margin: 1%;
 }
-
-
-
