@@ -9,12 +9,7 @@
 
     <form id="form">
         <div class="grid_container">
-            <div id="top">
-                <!--****NOTE: The banner image is from: https://www.centennialcollege.ca/programs-courses/full-time/graphic-design/ ****-->
-                <h1><img src="centennialcollege_logo.jpg" alt="Centennial College Logo Banner" width="200px">MEMBER REGISTRATION</h1>
-            </div>
-            
-            <h2>Please complete all the fields below:</h2><br><br>
+            <h2>Send Message and Contact Information:</h2><br><br>
             <!--Label and input field for firstname-->
             <label for="fname">First Name:</label>
             <input type="text" id="fname" name="fname" tabindex="1"><br>
@@ -28,46 +23,10 @@
             <p id="empty"></p><br>
 
             <!--Label and input field for address-->
-            <label for="address">Address:</label>
-            <input type="text" id="address" name="address" tabindex="5"><br>
+            <label for="contact_number">Contact Number:</label>
+            <input type="text" id="contact_number" name="contact_number" tabindex="5"><br>
             <!--Placeholder to provide consistent spacing-->
-            <p id="empty"></p><br>
-
-            <!--Label and input field for city-->
-            <label for="city">City:</label>
-            <input type="text" id="city" name="city" tabindex="7"><br>
-            <!--Placeholder to provide consistent spacing-->
-            <p id="empty"></p><br>
-
-            <!--Label and input field for postal code-->
-            <label for="postal_code">Postal Code:</label>
-            <input type="text" id="postal_code" name="postal_code" tabindex="9"><br>
-            <!--Text for potentital postal code entry errors. Initially set to ""-->
-            <p id="postal_code_error"></p><br>
-
-            <!--Label and input field for province-->
-            <label for="province">Province:</label>
-            <input type="text" id="province" name="province" tabindex="11"><br>
-            <!--Text for potentital province entry errors. Initially set to ""-->
-            <p id="province_error"></p><br>
-
-            <!--Label and input field for age-->
-            <label for="age">Age:</label>
-            <input type="text" id="age" name="age" tabindex="13"><br>
-            <!--Text for potentital age entry errors. Initially set to ""-->
-            <p id="age_error"></p><br>
-
-            <!--Label and input field for password-->
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" tabindex="15"><br>
-            <!--Text for potentital password entry errors. Initially set to ""-->
-            <p id="password_error"></p><br>
-
-            <!--Label and input field for confirm password-->
-            <label for="confirm_password">Confirm:</label>
-            <input type="password" id="confirm_password" name="confirm_password" tabindex="17"><br>
-            <!--Text for potentital confirm password entry errors. Initially set to ""-->
-            <p id="confirm_password_error"></p><br>
+            <p id="number_error"></p><br>
 
             <!--Label and input field for email-->
             <label for="email">Email:</label>
@@ -75,18 +34,29 @@
             <!--Text for potentital email entry errors. Initially set to ""-->
             <p id="email_error"></p><br>
             
+            <!--Label and input field for email-->
+            <label for="business_name">Business Name:</label>
+            <input type="text" id="business_name" name="business_name" tabindex="19" ><br>
+            <!--Text for potentital email entry errors. Initially set to ""-->
+            <p id="empty"></p><br>
+
+            <!--Label and input field for city-->
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message" tabindex="7"><br>
+            <!--Placeholder to provide consistent spacing-->
+            <p id="empty"></p><br>
+
+            
+            
             <!--Text for potentital errors all fields are mandatory error. Initially set to ""-->
             <p id="all_fields_error"></p>
         </div>
         <!--Area register and clear for buttons-->
         <div>
-            <input id="register" name="register" type="button" value="Register Now" tabindex="21">
-            <input id="clear" name="clear" type="button" value="Clear Form" tabindex="23">  
+            <input id="send" name="Send" type="button" value="Send" tabindex="21">
+            <input id="clear" name="clear" type="button" value="Clear" tabindex="23">  
         </div>
-        
-        <!--Footer area-->
-        <p id="footer">&copy;Copyright: Alexander Maynard (Student ID: 301170707) - Assignment 4</p>
-
+        <br><br>
     </form>
-    <script src="assignment4.js"></script>
+    <script src="/scripts/contact.js"></script>
 </div>

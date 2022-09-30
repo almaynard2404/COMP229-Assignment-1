@@ -76,7 +76,7 @@ p {
 }
 
 /*normal button styling*/
-#register, #clear {
+#send, #clear {
     width: max-content;
     padding: 1%;
     margin: 2%;
@@ -87,7 +87,7 @@ p {
 }
 
 /*button styling based on hover action*/
-#register:hover, #clear:hover {
+#send:hover, #clear:hover {
     width: max-content;
     padding: 1%;
     margin: 2%;
@@ -98,7 +98,7 @@ p {
 }
 
 /*button styling based on active action*/
-#register:active, #clear:active {
+#send:active, #clear:active {
     width: max-content;
     padding: 1%;
     margin: 2%;
