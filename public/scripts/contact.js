@@ -102,6 +102,7 @@ function passedValidation()
     checkEmail() == 1) {
         document.getElementById("form").submit();
         alert("Thanks for reaching out to me! I will respond within 24-48 hours!");
+        window.location.href = "http://localhost:3000/";
     }
     else {
         //if some calls do do not match validaion, else calls the functions and checks which validations are right or wrong.
@@ -121,7 +122,7 @@ function clearForm() {
     document.getElementsByTagName("input")[3].style.backgroundColor = "white";
     document.getElementsByTagName("input")[4].style.backgroundColor = "white";
     document.getElementsByTagName("input")[5].style.backgroundColor = "white";
-    document.getElementsByTagName("input")[6].style.backgroundColor = "white";
+    document.getElementsByTagName("textarea")[0].style.backgroundColor = "white";
     
 
     document.getElementsByTagName("p")[0].textContent = "";

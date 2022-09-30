@@ -5,30 +5,9 @@ Project: Assignment 2
 */
 
 /*styling for the page background(which uses a background for it) and font-family*/
-html {
+form {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-    background-color: #d5e139;
-}
-
-/*h2 styles*/
-h2 {
-    color: #464648;
-}
-
-/*style for the header/banner area*/
-h1 {
-    background-color: #464648;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px;
-    border-radius: 5px;
-    font-size: medium;
-    color: black;
-    padding-top: 3%;
-    padding-bottom: 3%;
-    padding-right: 10%;
-    font-size: 300%;
-    color: #d5e139;
 }
 
 /*The label and input styling displays the number inputs 
@@ -47,16 +26,12 @@ label {
 
 /*Input styles work in conjunction with the label styles to 
 position the inputs neatly*/
-input {
+input, textarea {
     width: 30%;
     margin: .5%;
     margin-right: 30%;   
 }
 
-/*Positions image to the left*/
-img {
-    float: left;
-}
 
 /*p styling (this is for the error text)*/
 p {
@@ -66,14 +41,6 @@ p {
     font-size: medium;
 }
 
-/*Footer styles, color and positioning*/
-#footer {
-    background-color: #464648;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px;
-    border-radius: 5px;
-    color: #d5e139;
-}
 
 /*normal button styling*/
 #send, #clear {
