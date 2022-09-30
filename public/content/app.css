@@ -1,12 +1,14 @@
 /*
-Name: Alexander Maynar
-Class: COMP125(SEC.002)
-Project: Assignment 2
+Name: Alexander Maynard
+Class: COMP229(SEC.401)
+Project: Assignment 1
 */
+
+
+/*STYLES FOR CONTACT.EJS*/
 
 /*styling for the page background(which uses a background for it) and font-family*/
 form {
-    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
@@ -74,3 +76,52 @@ form p {
     border-radius: 5px;
     background-color: rgb(72, 70, 70);;
 }
+
+
+/*END OF STYLES FOR CONTACT.EJS*/
+
+
+
+/*GENERAL STYLES FOR THE SITE*/
+
+
+
+.title {
+    text-align: center;
+    padding: 2%;
+    color: #000000;
+    text-shadow: 1px 3px #778899;
+    text-transform: uppercase;
+}
+
+.container {
+    background-color: #8b9196;
+    padding: 2%;
+    box-shadow: 4px 4px 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2, h3 {
+    margin-top: 2%;
+    text-decoration: dashed;
+}
+
+
+h2 {
+    color: white;
+    text-transform: uppercase;
+}
+
+
+a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+}
+
+li {
+    margin: 1%;
+}
+
+
+
