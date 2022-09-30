@@ -34,7 +34,7 @@ input, textarea {
 
 
 /*p styling (this is for the error text)*/
-p {
+form p {
     padding: .5%;
     color: red;
     font-weight: 600;
