@@ -1,4 +1,12 @@
+<!--File: contact.ejs
+Student Name: Alexander Maynard
+Student ID: 301170707
+Date: 2022-10-01-->
+
+<!--Simple container for content-->
 <div class="container">
+    <!--Table with bootstrap table styles, stripped, dark shading, fluid(fills width of container, border). Also has text-align(not bootstrap)-->
+    <!--Table contains contact info-->
     <table class="table table-striped table-dark table-bordered container-fluid" style="text-align: center;">
         <tr>
             <th><h2>Contact Information</h2></th>
@@ -16,9 +24,10 @@
             <td>Mail: Po Box 275, St.Malo, Manitoba, Canada</td>
         </tr>
     </table>
-
+    <!--Custom form, styles are defined in app.css and behaviour in /public/app.js-->
     <form id="form">
-        <div class="grid_container">
+        <div>
+            <!--Title-->
             <h2>Send Message and Contact Information:</h2><br><br>
             <!--Label and input field for firstname-->
             <label for="fname">First Name:</label>
@@ -68,5 +77,4 @@
         </div>
         <br><br>
     </form>
-    <script src="/scripts/app.js"></script>
 </div>
