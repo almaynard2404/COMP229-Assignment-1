@@ -108,8 +108,8 @@ function passedValidation()
     checkEmail() == 1) {
         document.getElementById("form").submit();
         alert("Thanks for reaching out to me! I will respond within 24-48 hours!");
-        //page to go back to
-        window.location.href = "http://localhost:3000/";
+        //page to go back to on heroku
+        window.location.href = "https://comp229-sec401-assignment-1.herokuapp.com/";
     }
     else {
         //if some calls do do not match validaion, else calls the functions and checks which validations are right or wrong.
