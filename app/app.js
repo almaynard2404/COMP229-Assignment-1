@@ -43,7 +43,7 @@ app.use(express.urlencoded({ extended: false}));
 //parses cookies
 app.use(cookieParser());
 
-//lets you use /public folder static files as if they're in the same foler without having to find /pulbic each time
+//lets you use /public folder static files as if they're in the same folder without having to find /public each time
 app.use(express.static(path.join(__dirname,'../public')));
 
 //session specfications
