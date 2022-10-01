@@ -6,7 +6,7 @@
         <link rel="stylesheet" href="./content/app.css">
     </head>
     <body>
-        <!-- Navigation -->
+        <!-- Navigation bar from header.ejs-->
         <header>           
             <%- include('partials/header.ejs'); %>
         </header>
@@ -14,13 +14,15 @@
         <main>
             <!-- 'content/nameofthepage.ejs' -->        
             <%- include('partials/content.ejs'); %>
+            <!-- Content for '/content/ + home, about, contact, projects or services + .ejs'-->
             <%- include('content/' + page + '.ejs'); %>
         </main>        
-        <!-- Footer -->
+        <!-- Footer from footer.ejs-->
         <footer>
             <%- include('partials/footer.ejs'); %>
         </footer>  
         
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
