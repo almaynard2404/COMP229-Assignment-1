@@ -1,3 +1,9 @@
+/*File: app/app.js
+Student Name: Alexander Maynard --> **Example from class
+Student ID: 301170707
+Date: 2022-10-01*/
+
+
 /*IMPORTS FOR THE PROJECT*/
 
 // Importing third-Party Modules to the project 

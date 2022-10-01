@@ -1,4 +1,13 @@
+/*File: /public/content/scripts/app.js
+Student Name: Alexander Maynard
+Student ID: 301170707
+Date: 2022-10-01*/
+
+//strict formatting
 "use strict";
+
+
+//**NOTE: app.js is client functionality. Right now it is for form functionality of the contact.ejs page**
 
 
 //ensures that all fields are not null and tells the user that all fields must be entered
@@ -47,8 +56,9 @@ function mandatoryFields() {
 }
 
 
-//checks if phone number matches the regular expression and passes validation
+//checks if contact number matches the regular expression and passes validation
 function checkNumber() {
+    //regular expression for contact number format 111-222-3333
     var numberFormat = /^[1-9]\d{2}-\d{3}-\d{4}/;
     
     if(numberFormat.test(document.getElementById("contact_number").value) == false) {
@@ -70,6 +80,7 @@ function checkNumber() {
 
 //checks if email matches the regular expression and passes validation
 function checkEmail() {
+    //regular expression for email format someone@something.domain
     var emailFormat = /^[_a-zA-Z0-9\\-]+(\.[_a-zA-Z0-9\\-]+)*@[a-zA-Z0-9\\-]+(\.[a-zA-Z0-9\\-]+)*(\.[a-z]{2,10})$/;
 
     if (emailFormat.test(document.getElementById("email").value) == false) {
@@ -97,6 +108,7 @@ function passedValidation()
     checkEmail() == 1) {
         document.getElementById("form").submit();
         alert("Thanks for reaching out to me! I will respond within 24-48 hours!");
+        //page to go back to
         window.location.href = "http://localhost:3000/";
     }
     else {

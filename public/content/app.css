@@ -1,13 +1,12 @@
-/*
-Name: Alexander Maynard
-Class: COMP229(SEC.401)
-Project: Assignment 1
-*/
+/*File: app.css
+Student Name: Alexander Maynard
+Student ID: 301170707
+Date: 2022-10-01*/
 
 
 /*STYLES FOR CONTACT.EJS*/
 
-/*styling for the page background(which uses a background for it) and font-family*/
+/*styling for the form text alignment*/
 form {
     text-align: center;
 }
@@ -81,7 +80,10 @@ form p {
 
 
 
+
+
 /*GENERAL STYLES FOR THE SITE*/
+/*title at top of each page (from content.ejs) styling*/
 .title {
     text-align: center;
     padding: 2%;
@@ -90,6 +92,7 @@ form p {
     text-transform: uppercase;
 }
 
+/*background-color, font-family, box-shadow and padding styles for container class. AKA for home, about, projects, services and contact (their main content).*/
 .container {
     background-color: #8b9196;
     padding: 2%;
@@ -97,24 +100,26 @@ form p {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*Margin and text decoration styles for h2s and h3s*/
 h2, h3 {
     margin-top: 2%;
     text-decoration: dashed;
 }
 
-
+/*h2 color and text-transform styles*/
 h2 {
     color: white;
     text-transform: uppercase;
 }
 
-
+/*page link styles (not hove or active)*/
 a {
     text-transform: uppercase;
     color: white;
     font-weight: 800;
 }
 
+/*list item margin styles*/
 li {
     margin: 1%;
 }
