@@ -14,8 +14,7 @@ function mandatoryFields() {
         document.getElementById("all_fields_error").textContent = "***All fields are mandatory. Please enter all fields***";
         
         //checks if fields are null again. If so it highlights the area with red coloring to show user to enter data into the fields:
-        //firstname. lastname, address and city. The other input areas have their own handlers for color. After the text area is filled in the
-        //browswer handles giving back the white coloring for no errors.
+        //firstname. lastname, message, and business name.
         if(document.getElementById("fname").value == "")
         {
             document.getElementById("fname").style.backgroundColor = "#FFDCD1";
@@ -23,10 +22,6 @@ function mandatoryFields() {
         if (document.getElementById("lname").value == "")
         {
             document.getElementById("lname").style.backgroundColor = "#FFDCD1";
-        }
-        if (document.getElementById("contact_number").value == "")
-        {
-            document.getElementById("contact_number").style.backgroundColor = "#FFDCD1";
         }
         if (document.getElementById("message").value == "")
         {
@@ -44,7 +39,7 @@ function mandatoryFields() {
         return 0;
     }
     else {
-        //changes text back when there are not eerors
+        //changes text back when there are not errors
         //function returns true to state that there are no errors for this particular check
         document.getElementById("all_fields_error").textContent = "";
         return 1;
@@ -52,7 +47,7 @@ function mandatoryFields() {
 }
 
 
-//checks if postal code matches the regular expression and passes validation
+//checks if phone number matches the regular expression and passes validation
 function checkNumber() {
     var numberFormat = /^[1-9]\d{2}-\d{3}-\d{4}/;
     
